@@ -12,9 +12,9 @@ Channel = @super_api
 */
 ob_start();
 $API_KEY = '364282365:AAFW9bxGcEYHzZeVdJaQCP5Vxn9dzfi8lpA'; //add your bot token
-$bot_ = "api_antybot"; // add your bot username 
-$sudo = 112235430; // add your id 
-define('API_KEY',$API_KEY);
+$bot_ = " Teskingbot "; // add your bot username
+$sudo =1226526925; // add your id 
+define('1956673879:AAH7-OT6z7T1JcMSSLb6K1RaW29WOLQZ-gM ',$API_KEY);
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
     $ch = curl_init();
